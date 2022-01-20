@@ -1,0 +1,34 @@
+{
+    "name": "lukaszjarosinski/restclient",
+    "version": "0.1",
+    "description": "Simple and fast rest client",
+    "type": "library",
+    "keywords": ["REST", "api", "client", "curl", "JSON", "XML"],
+    "homepage": "http://github.com/lukaszjarosinski/restclient",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Łukasz Jarosiński",
+            "role": "Developer",
+            "email": "lukaszjarosinski@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "http://github.com/lukaszjarosinski/restclient/issues"
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "php": ">=7.0.0",
+        "phpunit/phpunit": ">=4.5"
+    },
+    "autoload": {
+        "files": ["lib/RestClient.php"],
+        "psr-4": {
+          "Lib\\": "lib/"
+        }
+    }
+}
